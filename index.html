@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="Walter Scimone Portfolio" content="Web Applications" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Walter Scimone Portfolio</title>
+</head>
+
+<body>
+    <!-- HEADER NAVIGATION CONTENT -->
+    <header>
+        <h1>Walter Scimone Portfolio</h1>
+        <nav class="top-menu">
+            <ul>
+                <li>
+                    <a href="#About-me" title="About-me">About me</a>
+                </li>
+                <li>
+                    <a href="#my-work" title="my work">My work</a>
+                </li>
+                <li>
+                    <a href="#contact-me" title="contact-me">Contact me</a>
+                </li>
+                <li> 
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
+                        <i id="menuIcon" class="fa fa-bars"></i> 
+                    </a>
+                </li>                
+            </ul>
+        </nav>      
+    </header>
+    <div class="top-nav-menu hidden-menu" id="topMenu">
+        <ul>
+            <li>
+                <a href="#About-me" title="About-me">About me</a>
+            </li>
+            <li>
+                <a href="#my-work" title="my work">My work</a>
+            </li>
+            <li>
+                <a href="#contact-me" title="contact-me">Contact me</a>
+            </li>
+        </ul>        
+    </div> 
+    <!-- END OF HEADER NAVIGATION CONTENT -->
+
+    <!-- MAIN CONTENT SECTION -->
+    <main class="about-me">
+        <article>
+        <h1>ABOUT ME</h1>
+        
+            <section>
+                
+
+            </section>
+        </article>
+      
+    </main>
+    <!-- END OF MAIN CONTENT SECTION -->
+
+   
+    
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <h2>Contact me</h2>
+        <p>
+            &copy; 
+        </p>
+    </footer>
+    <!-- END OF FOOTER SECTION -->
+    <script>
+        function myFunction() {
+          var topMenu = document.getElementById("topMenu");
+          var menuIcon = document.getElementById("menuIcon");
+
+          if (topMenu.className === "top-nav-menu hidden-menu") {
+            topMenu.className = "top-nav-menu shown-menu fadeIn";
+            menuIcon.className += " active";
+          } else {
+            topMenu.className = "top-nav-menu shown-menu fadeOut";
+              setTimeout(function() {
+                topMenu.className = "top-nav-menu hidden-menu";
+              }, 800);
+            
+            menuIcon.className = "fa fa-bars";
+          }
+        }
+    </script>
+
+</body>
+
+</html>
