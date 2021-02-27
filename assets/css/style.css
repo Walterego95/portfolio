@@ -25,7 +25,8 @@
 
 main article div h2 {
     float: left;
-    flex-wrap: wrap;
+    display:flex;
+    align-items: flex-end;
 }
 
 @keyframes fadeIn {
