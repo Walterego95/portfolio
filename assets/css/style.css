@@ -1,33 +1,41 @@
 @media screen and (max-width: 925px) {
 
+    .about-me-container {
+        background-color: #b3b3b3;
+        padding-left: 50px;
+        box-shadow: 5px -5px 5px rgba(68, 68, 68, 0.6);
+        
+    }
+
 header h1 {
     font-size: 20px !important;
 }
 
-    .top-menu a.icon {
+.top-menu a.icon {
         float: right;
         display: block;
     }
 
-
-    .top-menu a {
+ .top-menu a {
         display: none;
         
         background-color: none;
     }
 
-    .shown-menu {
-      float: none;
+.shown-menu {
+        float: none;
       display: block;
       text-align: left;
       position: fixed;
       top: 25px;
       right: 10px;
-    }   
+    }  
+    
 
     main article p {
         margin: 0 5px 0 5px;
     }
+
     
 }
 
