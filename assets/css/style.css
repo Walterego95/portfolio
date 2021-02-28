@@ -44,6 +44,7 @@ main article div h2 {
     float: left;
     display:flex;
     align-items: flex-end;
+    padding-left: 4px;
 }
 
 article div img {
@@ -115,35 +116,58 @@ article {
     font-size: 40px;
 }
 
-.run-buddy {
+#img {
     height: 1050px;
     width: 600px;
-    margin: 10px;
+    margin: auto;
     padding-bottom: 0;
     border-radius: 1%;
     border: 2px solid black;
-
+    margin-left: auto;
+    margin-right: auto;
+    transition: height 0.5s, width 0.5s;
 }
 
-.run-buddy:hover {
+#img:hover {
+    height: 1060px;
     border: 2px solid white;
     cursor: pointer;
+    transition: height 0.5s, width 0.5s;
 }
 
 .horiseon {
-    height: 1050px;
-    width: 600px;
-    margin: 10px;
-    order: -1;
-    padding: 0;
-    border-radius: 1%;
-    border: 2px solid black;
+    width: 620px !important;
 }
 
-.horiseon:hover {
-    border: 2px solid white;
-    cursor: pointer;
+.work {
+    background-color:  #698fc9
 }
+
+.work-buddy h2 {
+    padding-left: 220px;;
+    text-align: center;
+}
+
+.work-buddy p {
+    text-align:center;
+}
+
+.work-horiseon h2 {
+    padding-left: 220px;
+
+}
+
+
+.descriptions {
+    background-color:  #698fc9;
+    border-radius: 2%;
+    border: 2px solid black;
+    margin: 0 63px 0 63px;
+}
+
+
+
+
 
 .top-menu {
     overflow: hidden; 
@@ -189,7 +213,7 @@ header {
 }
 
 .about-me-container {
-    background-color: green;
+    background-color: #698fc9;
     padding: 10px;
     box-shadow: 5px -5px 5px rgba(68, 68, 68, 0.6);
 }
@@ -231,7 +255,7 @@ a:hover {
 
 /* PARAGRAPH FONT SIZES */
 p {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 /* MAIN IMAGE SECTION */
