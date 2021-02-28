@@ -1,14 +1,34 @@
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 980px) {
 
-    .about-me-container {
-        background-color: #b3b3b3;
-        padding-left: 50px;
-        box-shadow: 5px -5px 5px rgba(68, 68, 68, 0.6);
-        
-    }
+body {
+    margin: auto;
+}
+
+ article {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 100%; 
+    margin: 10px;
+ }
+
+
+.about-me-container {
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    width: 100%; 
+    margin: 10px;
+}
+
 
 header h1 {
-    font-size: 20px !important;
+    display: block !important;
+    text-align: center;
+    font-size: 30px !important;
 }
 
 .top-menu a.icon {
@@ -127,12 +147,10 @@ article {
 #img {
     height: 1050px;
     width: 600px;
-    margin: auto;
+    margin: 35px auto 10px auto;
     padding-bottom: 0;
     border-radius: 1%;
     border: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
     transition: height 0.5s, width 0.5s;
 }
 
@@ -148,7 +166,7 @@ article {
 }
 
 .work {
-    background-color:  #698fc9
+    background-color:  #e6f2ff
 }
 
 .work-buddy h2 {
@@ -167,10 +185,10 @@ article {
 
 
 .descriptions {
-    background-color:  #b3b3b3;
+    background-color:  #e6e6e6;
     border-radius: 2%;
     border: 2px solid black;
-    margin: 0 63px 0 63px;
+    margin: 5px 63px 0 63px;
 }
 
 
@@ -221,9 +239,12 @@ header {
 }
 
 .about-me-container {
-    background-color: #b3b3b3;
+    background-color: #e6e6e6;
     padding: 10px;
     box-shadow: 5px -5px 5px rgba(68, 68, 68, 0.6);
+    width: 98% auto;
+    margin: 0 30px 0 10px;
+    border: 2px solid black;
 }
 
 header h1 {
@@ -307,7 +328,7 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url("../images/header-img.jpeg");
     background-size: cover;
-    width: 100%;
+    width: 100% auto;
     box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
     text-align: center;
 }
