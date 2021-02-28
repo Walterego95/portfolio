@@ -132,7 +132,7 @@ article {
     height: 1060px;
     border: 2px solid white;
     cursor: pointer;
-    transition: height 0.5s, width 0.5s;
+    transition: height 0.4s, width 0.4s;
 }
 
 .horiseon {
