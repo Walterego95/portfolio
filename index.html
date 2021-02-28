@@ -16,23 +16,23 @@
 <body>
     <!-- HEADER NAVIGATION CONTENT -->
     <header>
-        <h1>Walter Scimone Portfolio</h1>
+        <h1>Walter Scimone Portfolio</h1>        
         <nav class="top-menu">
+            <div class="menu-icon-container"> 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
+                    <i id="menuIcon" class="fa fa-bars"></i> 
+                </a>
+            </div>             
             <ul>
                 <li>
-                    <a href="#About-me" title="About-me">About me</a>
+                    <a href="#about-me" title="About-me">About me</a>
                 </li>
                 <li>
                     <a href="#my-work" title="my work">My work</a>
                 </li>
                 <li>
                     <a href="#contact-me" title="contact-me">Contact me</a>
-                </li>
-                <li> 
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
-                        <i id="menuIcon" class="fa fa-bars"></i> 
-                    </a>
-                </li>                
+                </li>               
             </ul>
         </nav>      
     </header>
@@ -53,34 +53,46 @@
 
     <!-- MAIN CONTENT SECTION -->
     <main> 
-        <article id = "about-me">
+        <section id = "about-me">
                 <h2 class = "about-me">ABOUT ME</h2>
-                
-                <p> Walter is a young junior developer driven by a constant thirst for knowledge. 
-                    He was born in Palermo, Italy. Moved to the United States in 2015, 
-                    he came to this country to pursue all his dreams and to achieve his personal goals about career and freedom.
-                    His background and experience goes from the hospitality industry to the Cryptocurrency, Distributed Ledger Technologies (DLTs) and Financial Markets.
-                    One of the main reasons he decided to pursue the path of software developer, was driven by his passion for the groundbreaking concepts of the DLT industry,
+                <div class="about-me-container">
+                <p> Walter is a young junior developer driven by a constant thirst for knowledge.</p></br>
+                <p> He was born in Palermo, Italy. </p></br>
+                <p>Moved to the United States in 2015, 
+                    he came to this country to pursue all his dreams and to achieve his personal goals about career and freedom.</p></br>
+                    <p>
+                    His background and experience go from the hospitality industry to the Cryptocurrency, Distributed Ledger Technologies (DLTs) and Financial Markets.</p></br>
+                    <p>One of the main reasons he decided to pursue the path of software developer, was driven by his passion for the groundbreaking concepts of the DLT industry,
                     and the future of a cash-less society with fast, fair and secure deployment of Decentralized Applications (Dapps) to create trust and empower the people without the need of a centralized third-party.
                  </p>
-
-                </article>
-
-
-                <article itemscope itemtype="http://schema.org/organization" id="run-buddy" class="runbuddy">
-            <h2 class = "my-work">MY WORK</h2>
+                </div>
+            </section>
             
-            <div id = "my-work">
-                <img loading="lazy" src="./assets/images/runbuddy.png" class="float-left" alt="fitness project" />
-                 <h2>RUN-BUDDY </h2>
+
+            <h2 class = "my-work">MY WORK</h2>
+                <article itemscope itemtype="http://schema.org/organization" id="work">
+            
+            
+            <div id = "my-work-buddy" class = "work">
+                <a href="https://walterego95.github.io/run-buddy/">
+                <img loading="lazy" src="./assets/images/runbuddy.png" class="run-buddy" alt="fitness project" />
+                </a>
+                 <h2>RUN-BUDDY</h2>
                  <p>
                  </br> is a mock-company with the purpose of engaging with people in regards of Fitness. </br>
                      I was hired to create the Web Page, with Desktop and Mobile accessibility, to apply attractive graphics and features to obtain the attention of an increased number of potential customers.
                  </p>
             </div>
 
-            <div>
-                <h2></h2>
+            <div id="my-work-horiseon" class = "work">
+                <a href= "https://walterego95.github.io/Horiseon-school-assignment/index.html">
+                <img loading="lazy" src="./assets/images/horiseon.png" class="horiseon" alt="Search Engine Optimization" />
+                </a>
+                <h2>HORISEON</h2>
+                <p>
+                </br> is a mock-company with the goal focused on Search Engine Optimization (SEO) and Accessibility for Users. </br>
+                My position as developer for this project was to enhance Accessibility, SEO and to make sure that the code behind the Web Page was clean and easy to read for any future development's job.
+                </p>
             </div>
 
         
@@ -100,9 +112,14 @@
     <!-- FOOTER SECTION -->
     <footer id = "contact-me">
         <h2>Contact me</h2>
-        <p>
-            &copy; 
-        </p>
+        <address>
+                    123 Main Street <br />
+                    Some Town, OH <br />
+                    12345 <br />
+                    PHONE: <a href="tel:123.456.7890">(123.456.7890)</a><br />
+                    EMAIL: <a href="mailto://walter.scimone@gmail.com">Walter.Scimone@gmail.com</a>
+                  </address>
+
     </footer>
     <!-- END OF FOOTER SECTION -->
     <script>
