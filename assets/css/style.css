@@ -59,6 +59,64 @@ header h1 {
     
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        margin: auto;
+    }
+    
+     article {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+        width: 100%; 
+        margin: 10px;
+     }
+    
+    
+    .about-me-container {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        align-content: center; 
+        width: 100%; 
+        margin: 10px;
+    }
+    
+    
+    header h1 {
+        display: block !important;
+        text-align: center;
+        font-size: 20px !important;
+    }
+    
+    .top-menu a.icon {
+            float: right;
+            display: block;
+        }
+    
+     .top-menu a {
+            display: none;
+            
+            background-color: none;
+        }
+    
+    .shown-menu {
+            float: none;
+          display: block;
+          text-align: left;
+          position: fixed;
+          top: 25px;
+          right: 10px;
+        }  
+        
+    
+        main article p {
+            margin: 0 5px 0 5px;
+        }   
+}
+
 .menu-icon-container {
     float: left;
 }
