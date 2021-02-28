@@ -159,7 +159,7 @@ article {
 
 
 .descriptions {
-    background-color:  #698fc9;
+    background-color:  #b3b3b3;
     border-radius: 2%;
     border: 2px solid black;
     margin: 0 63px 0 63px;
@@ -213,7 +213,7 @@ header {
 }
 
 .about-me-container {
-    background-color: #698fc9;
+    background-color: #b3b3b3;
     padding: 10px;
     box-shadow: 5px -5px 5px rgba(68, 68, 68, 0.6);
 }
