@@ -70,12 +70,13 @@ header h1 {
     #img {
         display: flex;
         height: auto;
-        width: 100%;
-        margin: auto;
+        max-width: 100%;
+        margin: 35px auto 10px auto;
         padding-bottom: 0;
         border-radius: 1%;
         border: 2px solid black;
         transition: height 0.5s, width 0.5s;
+        width: 100% auto;
         text-align: center;
         box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
     }
@@ -150,12 +151,13 @@ header h1 {
         #img {
             display: flex;
             height: auto;
-            width: 100%;
-            margin: auto;
+            max-width: 100%;
+            margin: 35px auto 10px auto;
             padding-bottom: 0;
             border-radius: 1%;
             border: 2px solid black;
             transition: height 0.5s, width 0.5s;
+            width: 100% auto;
             text-align: center;
             box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
         }
@@ -182,12 +184,13 @@ header h1 {
     #img {
         display: flex;
         height: auto;
-        width: 100%;
-        margin: auto;
+        max-width: 100%;
+        margin: 35px auto 10px auto;
         padding-bottom: 0;
         border-radius: 1%;
         border: 2px solid black;
         transition: height 0.5s, width 0.5s;
+        width: 100% auto;
         text-align: center;
         box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
     }
@@ -205,13 +208,6 @@ header h1 {
 main article div {
     margin-left: 0;
     padding-left: 0;
-}
-
-main article div h2 {
-    float: left;
-    display:flex;
-    align-items: flex-end;
-    padding-left: 4px;
 }
 
 
@@ -309,7 +305,6 @@ article {
 }
 
 .work-buddy h2 {
-    padding-left: 80px;;
     text-align: center;
 }
 
@@ -318,7 +313,7 @@ article {
 }
 
 .work-horiseon h2 {
-    padding-left: 80px;
+    text-align: center;
 
 }
 
