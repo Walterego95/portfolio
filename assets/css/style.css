@@ -10,7 +10,8 @@ body {
     justify-content: center !important;
     align-items: center !important;
     align-content: center !important;
-    width: 100%; 
+    max-width: 100%; 
+    height: auto;
     margin: 10px;
  }
 
@@ -20,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center; 
-    width: 100%; 
+    width: 100% auto; 
     margin: 10px;
 }
 
@@ -56,6 +57,26 @@ header h1 {
         margin: 0 5px 0 5px;
     }
 
+    #img {
+        display: flex;
+        height: auto;
+        max-width: 100%;
+        margin: 35px auto 10px auto;
+        padding-bottom: 0;
+        border-radius: 1%;
+        border: 2px solid black;
+        transition: height 0.5s, width 0.5s;
+        width: 100% auto;
+        text-align: center;
+        box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
+    }
+
+    footer {
+       
+    
+
+    }
+
     
 }
 
@@ -70,7 +91,7 @@ header h1 {
         justify-content: center !important;
         align-items: center !important;
         align-content: center !important;
-        width: 100%; 
+        width: 100% auto; 
         margin: 10px;
      }
     
@@ -114,7 +135,53 @@ header h1 {
     
         main article p {
             margin: 0 5px 0 5px;
-        }   
+        }  
+        
+        #img {
+            display: flex;
+            height: auto;
+            max-width: 100%;
+            margin: 35px auto 10px auto;
+            padding-bottom: 0;
+            border-radius: 1%;
+            border: 2px solid black;
+            transition: height 0.5s, width 0.5s;
+            width: 100% auto;
+            text-align: center;
+            box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
+        }
+        
+        
+        footer {
+            
+            
+        }
+}
+
+@media screen and (max-width: 575px) {
+
+    .about-me-container {
+        max-width: 100% auto;
+    }
+
+    #img {
+        display: flex;
+        height: auto;
+        max-width: 100%;
+        margin: 35px auto 10px auto;
+        padding-bottom: 0;
+        border-radius: 1%;
+        border: 2px solid black;
+        transition: height 0.5s, width 0.5s;
+        width: 100% auto;
+        text-align: center;
+        box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
+    }
+
+    footer {
+        
+        
+    }
 }
 
 .menu-icon-container {
@@ -133,14 +200,7 @@ main article div h2 {
     padding-left: 4px;
 }
 
-article div img {
-    display: flex;
-}
 
-article aside img {
-   flex: 50%;
-   padding: 5px;
-}
 
 @keyframes fadeIn {
     0%   {opacity: 0;}
@@ -203,6 +263,7 @@ article {
 }
 
 #img {
+    display: flex;
     height: 1050px;
     width: 600px;
     margin: 35px auto 10px auto;
@@ -210,6 +271,12 @@ article {
     border-radius: 1%;
     border: 2px solid black;
     transition: height 0.5s, width 0.5s;
+    width: 100% auto;
+    text-align: center;
+    box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
+    
+
+    
 }
 
 #img:hover {
@@ -301,7 +368,7 @@ header {
     padding: 10px;
     box-shadow: 5px -5px 5px rgba(68, 68, 68, 0.6);
     width: 98% auto;
-    margin: 0 30px 0 10px;
+    margin: 0 0px 0 10px;
     border: 2px solid black;
 }
 
@@ -309,18 +376,6 @@ header h1 {
     display: inline-block;
     font-size: 48px;
     color: #ffffff;
-}
-
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-header nav {
-    width: 100%;
-    padding-top: 15px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
 
 header nav ul li {
@@ -346,35 +401,16 @@ p {
 }
 
 /* MAIN IMAGE SECTION */
-.hero {
-    width: 100%;
-    margin-bottom: 25px;
-}
+
 /* END OF MAIN IMAGE SECTION */
 
-/* UTILITY SELECTORS */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+
 /* END OF UTILITY SELECTORS */
 
 /* MAIN CONTENT SECTION */
-.central {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-.central h1 {
-    
-    position: relative;
-}
+
 /* END OF MAIN CONTENT SECTION */
 
 
@@ -387,8 +423,11 @@ footer {
     background-image: url("../images/header-img.jpeg");
     background-size: cover;
     width: 100% auto;
-    box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
     text-align: center;
+    box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
+    height: 100%;
+    top: 100;
+    bottom: 100;
 }
 
 footer h2 {
