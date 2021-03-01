@@ -2,6 +2,7 @@
 
 body {
     margin: auto;
+    position: absolute;
 }
 
  article {
@@ -151,7 +152,13 @@ header h1 {
             box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
         }
         
+        .work-buddy h2 {
+            
+        }
         
+        .work-horiseon {
+            
+        }
         footer {
             
             
@@ -295,7 +302,7 @@ article {
 }
 
 .work-buddy h2 {
-    padding-left: 220px;;
+    padding-left: 80px;;
     text-align: center;
 }
 
@@ -304,7 +311,7 @@ article {
 }
 
 .work-horiseon h2 {
-    padding-left: 220px;
+    padding-left: 80px;
 
 }
 
