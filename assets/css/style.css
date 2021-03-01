@@ -26,6 +26,15 @@ body {
     margin: 10px;
 }
 
+.descriptions {
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    width: 100% auto; 
+    margin: 10px;
+}
+
 
 header h1 {
     display: block !important;
@@ -103,7 +112,7 @@ header h1 {
         align-items: center;
         align-content: center; 
         width: 100%; 
-        margin: 10px;
+        margin: auto;
     }
     
     
@@ -112,6 +121,7 @@ header h1 {
         text-align: center;
         font-size: 20px !important;
     }
+    
     
     .top-menu a.icon {
             float: right;
@@ -320,7 +330,7 @@ article {
     background-color:  #e6e6e6;
     border-radius: 2%;
     border: 2px solid black;
-    margin: 5px 63px 0 63px;
+    margin: auto;
 }
 
 
