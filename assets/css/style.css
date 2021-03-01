@@ -48,7 +48,7 @@ header h1 {
     }
 
  .top-menu a {
-        display: none;
+        display: inline-block;
         
         background-color: none;
     }
@@ -161,6 +161,10 @@ header h1 {
             text-align: center;
             box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
         }
+
+        a {
+            font-size: 15px;
+        }
         
         .work-buddy h2 {
             
@@ -193,6 +197,10 @@ header h1 {
         width: 100% auto;
         text-align: center;
         box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
+    }
+
+    a {
+        font-size: 15px;
     }
 
     footer {
