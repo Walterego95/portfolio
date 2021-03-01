@@ -2,7 +2,6 @@
 <html lang="en-us">
 
 <head>
-    
     <meta charset="UTF-8" />
     <meta name="Walter Scimone Portfolio" content="Web Applications" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +15,8 @@
 <body>
     <!-- HEADER NAVIGATION CONTENT -->
     <header>
-        <h1>Walter Scimone Portfolio</h1>        
+        <h1>Walter Scimone Portfolio</h1> 
+        <img loading="lazy" id="myself" src="./assets/images/myself.JPG" class="myself" alt="Walter Scimone" />       
         <nav class="top-menu">
             <div class="menu-icon-container"> 
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
@@ -36,6 +36,9 @@
             </ul>
         </nav>      
     </header>
+    <!--END OF HEADER NAVIGATION-->
+
+    <!--ICON MENU-->
     <div class="top-nav-menu hidden-menu" id="topMenu">
         <ul>
             <li>
@@ -49,9 +52,10 @@
             </li>
         </ul>        
     </div> 
-    <!-- END OF HEADER NAVIGATION CONTENT -->
+    <!-- END OF ICON MENU-->
 
     <!-- MAIN CONTENT SECTION -->
+        <!--ABOUT ME -->
     <main> 
         <section id = "about-me">
                 <h2 class = "about-me">ABOUT ME</h2>
@@ -67,14 +71,14 @@
                  </p>
                 </div>
             </section>
-
+        <!--END OF ABOUT ME-->
             
-
+        <!--MY WORK SECTION-->
             <h2 id="my-work" class = "my-work">MY WORK</h2>
-                <article itemscope itemtype="http://schema.org/organization" id="work">
+
+        <article itemscope itemtype="http://schema.org/organization" id="work">
             
-            
-            <div id = "my-work-buddy" class = "work-buddy">
+             <div id = "my-work-buddy" class = "work-buddy">
                 <a href="https://walterego95.github.io/run-buddy/">
                 <img loading="lazy" id="img" src="./assets/images/runbuddy.png" class="run-buddy" alt="fitness project" />
                 </a>
@@ -99,15 +103,8 @@
                 </p>
                 </div>
             </div>
-
-        
-
-        
-            
-         </article>
-            
-
-      
+        </article>
+        <!--END OF MY WORK SECTION-->
     </main>
     <!-- END OF MAIN CONTENT SECTION -->
 
@@ -124,9 +121,10 @@
                     PHONE: <a href="tel:123.456.7890">(123.456.7890)</a><br />
                     EMAIL: <a href="mailto://walter.scimone@gmail.com">Walter.Scimone@gmail.com</a>
                   </address>
-
-    </footer>
+        </footer>
     <!-- END OF FOOTER SECTION -->
+
+    <!--JAVASCRIPT FUNCTION-->
     <script>
         function myFunction() {
           var topMenu = document.getElementById("topMenu");
@@ -145,6 +143,7 @@
           }
         }
     </script>
+    <!--END OF JAVASCRIPT FUNCTION-->
 
 </body>
 
