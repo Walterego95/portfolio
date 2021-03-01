@@ -70,13 +70,12 @@ header h1 {
     #img {
         display: flex;
         height: auto;
-        max-width: 100%;
-        margin: 35px auto 10px auto;
+        width: 100%;
+        margin: auto;
         padding-bottom: 0;
         border-radius: 1%;
         border: 2px solid black;
         transition: height 0.5s, width 0.5s;
-        width: 100% auto;
         text-align: center;
         box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
     }
@@ -151,13 +150,12 @@ header h1 {
         #img {
             display: flex;
             height: auto;
-            max-width: 100%;
-            margin: 35px auto 10px auto;
+            width: 100%;
+            margin: auto;
             padding-bottom: 0;
             border-radius: 1%;
             border: 2px solid black;
             transition: height 0.5s, width 0.5s;
-            width: 100% auto;
             text-align: center;
             box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
         }
@@ -184,13 +182,12 @@ header h1 {
     #img {
         display: flex;
         height: auto;
-        max-width: 100%;
-        margin: 35px auto 10px auto;
+        width: 100%;
+        margin: auto;
         padding-bottom: 0;
         border-radius: 1%;
         border: 2px solid black;
         transition: height 0.5s, width 0.5s;
-        width: 100% auto;
         text-align: center;
         box-shadow: -5px -5px 5px rgba(68, 68, 68, 0.6);
     }
