@@ -15,7 +15,7 @@
 <a href="https://walterego95.github.io/portfolio/">(Walter Scimone Portfolio)</a>
 
 <h2>Landing Web Page Image</h2>
-<img src="./assets/images/" alt="web image screenshot" />
+<img src="./assets/images/portfolio-screenshot.png" alt="web image screenshot" />
 
 <footer>
   <h2>Contribution</h2>
